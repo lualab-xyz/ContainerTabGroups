@@ -1,0 +1,32 @@
+{
+  "name": "container-tab-groups",
+  "version": "1.0.0",
+  "description": "Firefox extension to automatically organize tabs into groups based on Multi-Account Containers",
+  "scripts": {
+    "build": "pwsh -ExecutionPolicy Bypass -File build.ps1",
+    "build:source": "pwsh -ExecutionPolicy Bypass -File build.ps1 -IncludeSource",
+    "clean": "pwsh -Command \"Remove-Item -Path dist -Recurse -Force -ErrorAction SilentlyContinue\"",
+    "package": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourUsername/ContainerTabGroups.git"
+  },
+  "keywords": [
+    "firefox",
+    "extension",
+    "addon",
+    "browser-extension",
+    "tab-groups",
+    "containers",
+    "multi-account-containers",
+    "tab-management",
+    "organization"
+  ],
+  "author": "Bruno Grillo Cruz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YourUsername/ContainerTabGroups/issues"
+  },
+  "homepage": "https://github.com/YourUsername/ContainerTabGroups#readme"
+}

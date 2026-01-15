@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.zip
+*.xpi
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Extension package
+*.xpi
+*.zip
+
+# Logs
+*.log
