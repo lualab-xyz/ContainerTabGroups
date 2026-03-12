@@ -4,12 +4,13 @@ on:
   release:
     types: [published]
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      packages: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v5
