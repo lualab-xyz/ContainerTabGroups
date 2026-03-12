@@ -1,6 +1,6 @@
 Proyecto: ContainerTabGroups
 Rama actual: main
-Main: 6065fab Update agent context after build
-Última petición: merge and continue
-Petición en curso: Añadir workflow que suba el ZIP a la release
-Estado: pending
+Main: f0ff89c Upload dist zip to release
+Última petición: declarar data_collection_permissions
+Petición en curso: Manifest apunta a gecko strict_min_version 140 + data_collection_permissions
+Estado: done
