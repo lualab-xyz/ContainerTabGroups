@@ -1,0 +1,21 @@
+name: Publish release asset
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm install
+      - run: npm run build
+      - name: Upload release asset
+        run: gh release upload "${{ github.event.release.tag_name }}" dist/ContainerTabGroups-v1.0.0.zip --clobber
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
