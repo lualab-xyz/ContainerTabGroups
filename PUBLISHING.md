@@ -8,7 +8,7 @@ The simplest way to package the extension (update version accordingly):
 
 ```powershell
 # Create a ZIP file with all necessary files
-Compress-Archive -Path manifest.json,background.js,options.html,options.js,options.css,i18n.js,icons -DestinationPath ContainerTabGroups-v1.0.1.zip -Force
+Compress-Archive -Path manifest.json,background.js,options.html,options.js,options.css,i18n.js,icons -DestinationPath ContainerTabGroups-v0.1.0.zip -Force
 ```
 
 ### Using the Build Script (Recommended)
@@ -20,7 +20,11 @@ We've included a build script that automates the process:
 .\build.ps1
 ```
 
+- `dist/ContainerTabGroups-v1.0.1.zip` - Ready to upload to AMO
+- `dist/ContainerTabGroups-v1.0.1-source.zip` - Source code (if needed for review)
 This will create:
+- `dist/ContainerTabGroups-v0.1.0.zip` - Ready to upload to AMO
+- `dist/ContainerTabGroups-v0.1.0-source.zip` - Source code (if needed for review)
 - `dist/ContainerTabGroups-v1.0.1.zip` - Ready to upload to AMO
 - `dist/ContainerTabGroups-v1.0.1-source.zip` - Source code (if needed for review)
 

@@ -1,7 +1,7 @@
 # Makefile for Container Tab Groups
 # Works on Linux/Mac with make installed
 
-VERSION = 1.0.1
+VERSION = 0.1.0
 PACKAGE_NAME = ContainerTabGroups-v$(VERSION).zip
 DIST_DIR = dist
 

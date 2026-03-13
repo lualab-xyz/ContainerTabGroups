@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Container Tab Groups",
-  "version": "1.0.1",
+  "version": "0.1.0",
   "author": "Bruno Grillo Cruz",
   "description": "Automatically organize tabs into groups based on their Firefox Multi-Account Containers",
   "icons": {
