@@ -51,7 +51,7 @@ make build
 npm run build
 ```
 
-Output: `dist/ContainerTabGroups-v1.0.0.zip`
+Output: `dist/ContainerTabGroups-v1.0.1.zip`
 
 ### Publishing
 

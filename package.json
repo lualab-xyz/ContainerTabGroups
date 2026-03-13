@@ -1,6 +1,6 @@
 {
   "name": "container-tab-groups",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Firefox extension to automatically organize tabs into groups based on Multi-Account Containers",
   "scripts": {
     "build": "pwsh -ExecutionPolicy Bypass -File build.ps1",
